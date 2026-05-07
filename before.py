@@ -1,22 +1,22 @@
-def calculate_total(price, count):
-    tax = price * 0.13
-    total = price + tax
-    if count > 10:
-        discount = total * 0.9
-        return discount
-    else:
-        return total
+def add(a, b):
+    result = a + b
+    print("The sum is:", result)
+    return result
 
-def calculate_total_vip(price, count):
-    tax = price * 0.13
-    total = price + tax
-    if count > 10:
-        discount = total * 0.85
-        return discount
-    else:
-        return total
+def add2(a, b):  
+    result = a + b
+    print("The sum is:", result)
+    return result
 
-unused_var = 100
+unused_var = 100  
 
-print(calculate_total(100, 5))
-print(calculate_total_vip(100, 15))
+def multiply_by_two(x):
+    return x * 2  
+
+def multiply_by_three(x):
+    return x * 3  
+
+add(1, 2)
+add2(1, 2)
+multiply_by_two(5)
+multiply_by_three(5)
